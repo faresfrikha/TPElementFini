@@ -1,0 +1,61 @@
+
+   RDM - Dessin - Maillage
+   Calcul des Structures par la Méthode des Éléments Finis
+
+   Version  - 7.04 - 30 janvier 2019
+
+   Utilisateur : frikha
+
+$debut du fichier
+$version
+7.04
+$SI unites
+$nom du fichier
+tp4.geo
+$date
+26/11/2019
+$points
+14  nombre de points
+   1  0.00000000000E+000  4.17500000000E+001 1  1.00
+   2  2.50000000000E+000  4.17500000000E+001 1  1.00
+   3  2.50000000000E+001  4.17500000000E+001 1  1.00
+   4  2.50000000000E+001  4.00000000000E+001 1  1.00
+   5  2.50000000000E+001  3.75000000000E+001 1  1.00
+   6  2.50000000000E+001  3.50000000000E+001 1  1.00
+   7  2.50000000000E+001  2.75000000000E+001 1  1.00
+   8  2.50000000000E+001  0.00000000000E+000 1  1.00
+   9  0.00000000000E+000  0.00000000000E+000 1  1.00
+  10  0.00000000000E+000  2.75000000000E+001 1  1.00
+  11  0.00000000000E+000  3.50000000000E+001 1  1.00
+  12  0.00000000000E+000  3.75000000000E+001 1  1.00
+  13  0.00000000000E+000  4.00000000000E+001 1  1.00
+  14  2.50000000000E+000  4.00000000000E+001 1  1.00
+$courbes
+segment 1 2 101 1
+segment 2 3 101 2
+segment 3 4 101 3
+segment 4 5 101 4
+segment 5 6 101 5
+segment 6 7 101 6
+segment 7 8 101 7
+segment 8 9 101 8
+segment 9 10 101 9
+segment 10 11 101 10
+segment 11 12 101 11
+segment 12 13 101 12
+segment 13 1 101 13
+segment 13 14 102 14
+segment 14 2 102 15
+segment 14 4 102 16
+segment 12 5 102 17
+segment 11 6 102 18
+segment 7 10 102 19
+//// fin des courbes
+$fenetre
+-3.56736170213E+001  6.36736170213E+001 -4.17500000000E+000  4.59250000000E+001
+$maillage
+elements 5000
+lissage 3
+jacobien 0.70
+//// fin maillage
+$fin du fichier
